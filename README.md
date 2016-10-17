@@ -22,7 +22,7 @@ User stories not completed:
 
 Walkthrough of all user stories:
 
-<img src='[img]http://i.imgur.com/D1XjchM.gif' 'title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/D1XjchM.gif' 'title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
