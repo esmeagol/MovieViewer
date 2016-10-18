@@ -14,6 +14,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
 
     @IBOutlet weak var TableView: UITableView!
     
+    @IBOutlet weak var errorView: UIView!
     var endpoint: String!
     
     var movies: [NSDictionary]?
@@ -45,8 +46,14 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
                         data, options:[]) as? NSDictionary {
                             print("response: \(responseDictionary)")
                             self.movies = responseDictionary["results"] as? [NSDictionary]
+                            self.errorView.hidden = true
                             self.TableView.reloadData()
                             
+                    }
+                } else {
+                    self.errorView.hidden = false
+                    if let e = error {
+                        NSLog("Error: \(e)")
                     }
                 }
         })

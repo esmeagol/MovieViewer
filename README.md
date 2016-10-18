@@ -9,20 +9,20 @@ Completed user stories:
     - [x] Required: User sees loading state while waiting for movies API. You can use one of the 3rd party libraries listed on CocoaControls.
     - [x] Required: User can pull to refresh the movie list.
     - [x] Optional: Add a tab bar for Now Playing or Top Rated movies.
+    - [x] Required: User sees an error message when there's a networking error.
 
 User stories not completed:
-    - [ ] Required: User sees an error message when there's a networking error.
-    - [ ] Optional: Add a search bar.
-    - [ ] Optional: All images fade in as they are loading.
-    - [ ] Optional: For the large poster, load the low-res image first and switch to high-res when complete.
-    - [ ] Optional: Customize the highlight and selection effect of the cell.
-    - [ ] Optional: Customize the navigation bar.
+    Optional: Add a search bar.
+    Optional: All images fade in as they are loading.
+    Optional: For the large poster, load the low-res image first and switch to high-res when complete.
+    Optional: Customize the highlight and selection effect of the cell.
+    Optional: Customize the navigation bar.
 
 ## Video Walkthrough 
 
 Walkthrough of all user stories:
 
-<img src='http://i.imgur.com/D1XjchM.gif' 'title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://i.imgur.com/WGSLUnP.gif' 'title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
